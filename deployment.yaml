@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        # Replace <dockerhub-username> with your actual Docker ID
-        image: <dockerhub-username>/java-app:latest
+        image: 23mis0020/java-app:latest
         ports:
         - containerPort: 8080
 ---
